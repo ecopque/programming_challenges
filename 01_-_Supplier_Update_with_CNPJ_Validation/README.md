@@ -18,8 +18,8 @@ Your task is to create a function that:
 6. If everything is correct, update the supplier in the file and write the complete list back to the hd_supplier.txt file.
 
 ## Structure of the hd_supplier.txt File:
-Supplier1|12345678000199|123456789|Category1
-Supplier2|98765432000188|987654321|Category2
+- Supplier1|12345678000199|123456789|Category1
+- Supplier2|98765432000188|987654321|Category2
 
 ## How to Solve:
 Use the provided classes to represent the supplier and category data. These classes already have methods to save and read data from the files:
