@@ -1,7 +1,7 @@
 # Programming Challenge: Supplier Update with CNPJ Validation (Company ID)
 Hello, everyone!
 
-Today, I bring you a programming challenge for those who enjoy solving problems logically and practically. The goal is to work with data manipulation and information validation in a supplier registration system. This is a real problem I encountered in a project I’m working on, and I decided to turn it into a challenge for you!
+Today, I bring you a Python programming challenge for those who like to solve problems in a logical and practical way. The goal is to work with data manipulation and information validation in a supplier registration system. This is a real problem I encountered in a project I'm working on and I decided to turn it into a challenge for you!
 
 This is my first challenge, so please be understanding if anything isn’t perfect. And of course, feel free to point out any mistakes or suggestions. Let's get to the challenge!
 
