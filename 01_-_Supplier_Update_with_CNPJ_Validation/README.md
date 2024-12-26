@@ -17,7 +17,7 @@ Your task is to create a function that:
 5. If the supplier with the given name does not exist, display the message: "The supplier you want to modify does not exist." and do not update.
 6. If everything is correct, update the supplier in the file and write the complete list back to the hd_supplier.txt file.
 
-## Structure of the hd_supplier.txt File:
+## Structure of the 'hd_supplier.txt' File:
 - Supplier1|12345678000199|123456789|Category1
 - Supplier2|98765432000188|987654321|Category2
 
