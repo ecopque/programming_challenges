@@ -26,6 +26,7 @@ Use the provided classes to represent the supplier and category data. These clas
 
 Supplier Model (class SupplierModel) - model.py
 
+    class SupplierModel:
     def __init__(self, name, cnpj, telephone, category):
         self.name = name
         self.cnpj = cnpj
@@ -34,30 +35,33 @@ Supplier Model (class SupplierModel) - model.py
 
 Data Handling Class (class SupplierDao) - dao.py
 
+    class SupplierDao:
     @classmethod
     def save(cls, supplier: SupplierModel):
-        # Save supplier to the file
         with open('hd_supplier.txt', 'a') as file:
             file.writelines(supplier.name + '|' + 
                             supplier.cnpj + '|' + 
                             supplier.telephone + '|' + 
                             supplier.category)
             file.writelines('\n')
+        print('Supplier registered successfully.')
 
     @classmethod
     def read(cls):
-        # Read suppliers from the file
         with open('hd_supplier.txt', 'r') as file:
-            suppliers = file.readlines()
-        
-        suppliers = [supplier.replace('\n', '') for supplier in suppliers]
+            cls.supplier = file.readlines()
+
+        for i1 in range(len(cls.supplier)):
+            cls.supplier[i1] = cls.supplier[i1].replace('\n', '')
+        print(cls.supplier)
+
+        for i2 in range(len(cls.supplier)):
+            cls.supplier[i2] = cls.supplier[i2].split('|')
+
         hd_supplier = []
-        for supplier in suppliers:
-            parts = supplier.split('|')
-            hd_supplier.append(SupplierModel(parts[0], parts[1], parts[2], parts[3]))
+        for i3 in cls.supplier:
+            hd_supplier.append(SupplierModel(i3[0], i3[1], i3[2], i3[3]))
         return hd_supplier
-
-
 
 ## Rules:
 1. Use only native Python features for the solution, without the need for external libraries.
