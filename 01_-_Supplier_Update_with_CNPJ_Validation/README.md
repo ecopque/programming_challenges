@@ -23,7 +23,8 @@ Supplier2|98765432000188|987654321|Category2
 
 ## How to Solve:
 Use the provided classes to represent the supplier and category data. These classes already have methods to save and read data from the files:
-Supplier Model (SupplierModel) - model.py
+
+* Supplier Model (SupplierModel) - model.py
 
 class SupplierModel:
     def __init__(self, name, cnpj, telephone, category):
@@ -32,7 +33,8 @@ class SupplierModel:
         self.telephone = telephone
         self.category = category
 
-Data Handling Class (SupplierDao) - dao.py
+* Data Handling Class (SupplierDao) - dao.py
+
 class SupplierDao:
     @classmethod
     def save(cls, supplier: SupplierModel):
@@ -57,9 +59,11 @@ class SupplierDao:
             hd_supplier.append(SupplierModel(parts[0], parts[1], parts[2], parts[3]))
         return hd_supplier
 
+
+
 ## Rules:
 1. Use only native Python features for the solution, without the need for external libraries.
 2. When solving the challenge, share your solution in the comments below or publish a link to the GitHub repository with your code.
 
-## Do you accept the challenge? 💪
+## Do you accept the challenge?
 #ProgrammingChallenge #Python #Development #ProgrammingLogic #Challenge #Code #Programming #LinkedIn #CodingChallenge #Developer
