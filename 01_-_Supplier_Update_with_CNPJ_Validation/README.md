@@ -24,18 +24,16 @@ Supplier2|98765432000188|987654321|Category2
 ## How to Solve:
 Use the provided classes to represent the supplier and category data. These classes already have methods to save and read data from the files:
 
-* Supplier Model (SupplierModel) - model.py
+* Supplier Model (class SupplierModel) - model.py
 
-class SupplierModel:
     def __init__(self, name, cnpj, telephone, category):
         self.name = name
         self.cnpj = cnpj
         self.telephone = telephone
         self.category = category
 
-* Data Handling Class (SupplierDao) - dao.py
+* Data Handling Class (class SupplierDao) - dao.py
 
-class SupplierDao:
     @classmethod
     def save(cls, supplier: SupplierModel):
         # Save supplier to the file
