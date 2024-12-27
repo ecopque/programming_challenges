@@ -10,7 +10,7 @@ You have a supplier database stored in a .txt file (called hd_supplier.txt). Eac
 
 Your task is to create a function that:
 
-1. Searches for a supplier by name.
+1. Search for suppliers by name and store in a list those whose names need to be changed.
 2. Checks if the new CNPJ is already in use by another supplier.
 3. If the CNPJ is not in use, update the supplier’s information with the new details: name, CNPJ, phone number, and category.
 4. If the CNPJ is already in use, display the message: "The CNPJ is already in use." and do not update.
