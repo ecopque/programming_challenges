@@ -12,7 +12,7 @@ Your task is to create a function that:
 
 1. Search for suppliers by name and store in a list those whose names need to be changed.
 2. Checks if the new CNPJ is already in use by another supplier.
-3. If the CNPJ is not in use, update the supplier’s information with the new details: name, CNPJ, phone number, and category.
+3. If the CNPJ is not in use, update the supplier information in a new list with the new details: name, CNPJ, phone number and category.
 4. If the CNPJ is already in use, display the message: "The CNPJ is already in use." and do not update.
 5. If the supplier with the given name does not exist, display the message: "The supplier you want to modify does not exist." and do not update.
 6. If everything is correct, update the supplier in the file and write the complete list back to the hd_supplier.txt file.
