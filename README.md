@@ -5,9 +5,9 @@ About the Challenges
 
 ## The challenges in this repository are designed to help you:
 
-    Sharpen your logic: Enhance your understanding of algorithms and problem-solving techniques.
-    Prepare for coding interviews: Tackle problems you might face in real-world job interviews.
-    Practice with any language: Feel free to use any programming language you're comfortable with or wish to learn.
+    - Sharpen your logic: Enhance your understanding of algorithms and problem-solving techniques.
+    - Prepare for coding interviews: Tackle problems you might face in real-world job interviews.
+    - Practice with any language: Feel free to use any programming language you're comfortable with or wish to learn.
 
 ## Topics Covered
 
