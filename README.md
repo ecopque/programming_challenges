@@ -17,7 +17,7 @@ The challenges will cover a variety of topics, including:
     - Mathematical Problems: Some challenges include basic math and logic puzzles.
     - Interview-style Problems: Simulate real coding interview questions that test your problem-solving and coding abilities.
 
-Challenge Frequency
+## Challenge Frequency
 
     - New Challenges Weekly: I aim to publish at least 3 new challenges per week. The challenges will be released every Sunday.
     - Varied Difficulty: The problems will range from beginner to intermediate levels, with more advanced problems coming in the future.
