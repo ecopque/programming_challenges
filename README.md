@@ -1,15 +1,15 @@
-## Welcome to the Programming Challenges repository! 
+# Welcome to the Programming Challenges repository! 
 
 This repository is a collection of programming exercises aimed at improving your problem-solving abilities, with a focus on daily coding challenges and job interview scenarios. The challenges are language-agnostic, meaning they can be solved in any programming language of your choice — from Python, Java, C, C++, JavaScript, ASM, and more.
 About the Challenges
 
-# The challenges in this repository are designed to help you:
+## The challenges in this repository are designed to help you:
 
     Sharpen your logic: Enhance your understanding of algorithms and problem-solving techniques.
     Prepare for coding interviews: Tackle problems you might face in real-world job interviews.
     Practice with any language: Feel free to use any programming language you're comfortable with or wish to learn.
 
-# Topics Covered
+## Topics Covered
 
 The challenges will cover a variety of topics, including:
 
