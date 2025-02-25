@@ -15,6 +15,8 @@ This challenge is a great opportunity to practice logic and cost optimization.
 
 The solution will be published in the repository within 7 days.
 
+---
+
 [#PORTUGUESE]:
 
 Novo Desafio de Programação no GitHub:
