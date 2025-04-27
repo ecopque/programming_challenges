@@ -36,5 +36,5 @@ A solução será publicada no repositório dentro de 7 dias.
 
 ---
 
-Source: https://wiki.python.org.br/ListaDeExercicios
-Archive: https://web.archive.org/web/20150201030233/https://wiki.python.org.br/ListaDeExercicios
+- Source: https://wiki.python.org.br/ListaDeExercicios
+- Archive: https://web.archive.org/web/20150201030233/https://wiki.python.org.br/ListaDeExercicios
