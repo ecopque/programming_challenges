@@ -33,3 +33,8 @@ Além disso, acrescente uma margem de 10% de segurança e sempre arredonde os va
 Este desafio é uma excelente oportunidade para praticar lógica e otimização de custos.
 
 A solução será publicada no repositório dentro de 7 dias.
+
+---
+
+Source: https://wiki.python.org.br/ListaDeExercicios
+Archive: https://web.archive.org/web/20150201030233/https://wiki.python.org.br/ListaDeExercicios
