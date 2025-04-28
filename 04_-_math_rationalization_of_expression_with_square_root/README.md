@@ -1,6 +1,6 @@
 # Math Challenge: Rationalization of Expression with Square Root
 
-This project implements a mathematical challenge to rationalize the expression \((\sqrt{10} + 3)/(\sqrt{10} - 3)\). The idea to convert this calculation into Python code was inspired by using the "Math Challenge" app, which presented this problem along with multiple-choice options, one of which was the correct answer: \(19 + 6\sqrt{10}\).
+This project implements a mathematical challenge to rationalize the expression \((\sqrt{10} + 3)/(\sqrt{10} - 3)\). The idea to convert this calculation into Python code was inspired by using the "1st - 12th Grade Math Problems" app (**AdamSoftware** [adamsoft](https://play.google.com/store/apps/details?id=com.companyname.MaturaMatematyka), which presented this problem along with multiple-choice options, one of which was the correct answer: \(19 + 6\sqrt{10}\).
 
 ## Objective
 
@@ -43,6 +43,16 @@ Your code must pass these checks:
 - **Algebraic Identities**: [GeeksforGeeks - Algebraic Identities](https://www.geeksforgeeks.org/algebraic-identities/)
 - **Babylonian Method**: [Wikipedia - Methods of Computing Square Roots](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots)
 
+## Screenshots and Handwritten Calculations
+
+Below are images that illustrate the process and inspiration behind this project:
+
+- **Math Challenge App Screenshot**: The original problem as presented in the "Math Challenge" app, showing the expression and the multiple-choice options.  
+  ![Math Challenge App Screenshot](images/math_challenge_app.png)
+
+- **Handwritten Calculations**: My step-by-step calculations for rationalizing the denominator, mirroring the process implemented in the code.  
+  ![Handwritten Calculations](images/handwritten_calculations.jpg)
+  
 ---
 
 **Author**: Edson Copque - [Linktree](https://linktr.ee/edsoncopque)
