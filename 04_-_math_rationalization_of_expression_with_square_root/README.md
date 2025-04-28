@@ -56,7 +56,3 @@ Below are images that illustrate the process and inspiration behind this project
 ---
 
 **Author**: Edson Copque - [Linktree](https://linktr.ee/edsoncopque)
-  
----
-
-**Author**: Edson Copque - [Linktree](https://linktr.ee/edsoncopque)
