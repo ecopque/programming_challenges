@@ -1,7 +1,5 @@
 # Math Chalenge: Rationalization of Expression with Square Root
 
-## [ENGLISH]:
-
 **Objective**: Implement the calculation of the expression `(√10 + 3)/(√10 - 3)` by rationalizing the denominator **without using external libraries** like `math` (e.g. Python).
 
 ## Description
