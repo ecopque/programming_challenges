@@ -9,7 +9,7 @@
 def calculates_square_root(n, precision=0.0001):
     estimate = (n / 2.0)
     while True:
-        next_estimate = (((estimate + n) / estimate) / 2)
+        next_estimate = ((estimate + (n / estimate)) / 2)
         if abs(next_estimate - estimate) < precision:
             return next_estimate
         else:
