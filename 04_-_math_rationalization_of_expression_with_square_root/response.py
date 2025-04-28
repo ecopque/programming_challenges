@@ -38,14 +38,38 @@ print(f'Original expression ({numerator_str} / {denominator_str}): ({numerator})
 print(f'Multiplying numerator and denominator by Conjugate: ({conjugate}).')
 print()
 
-#Step 3: Calculate the numerator using (a + b)^2 = (a^2 + 2ab + b^2)
+
+# Step 3: Calculate the numerator using (a + b)^2 = (a^2 + 2ab + b^2)
 print('Calculate the numerator using "Squade of Sum" = (a + b)^2 = (a^2 + 2ab + b^2): ')
-print('(√10 + 3)(√10 + 3) = (√10)^2 + 2(√10)(3) + 3^2')
+
 a = sqrt_10
 b = 3
-numerator_new = ((a + b) * (a + b))
 
+numerator_new = ((a + b) * (a + b))
 term1 = (a * a) # (√10)^2
-termi2 = (2 * a * b) # 2(√10)(3)
+term2 = (2 * a * b) # 2(√10)(3)
 term3 = (b * b) # 3^2
-numerator_expanded = (termi1 + term2 + term3)
+numerator_expanded = (term1 + term2 + term3)
+
+print('Numerator: (√10 + 3)(√10 + 3) = (√10)^2 + 2(√10)(3) + 3^2')
+print(f'(√10)^2 = {term1}')
+print(f'2(√10)(3) = {term2}')
+print(f'3^2 = {term3}')
+print(f'Expanded numerator: {term1} + {term2} + {term3} = {numerator_expanded}.')
+print()
+
+
+# Step 4: Calculate the denominator using the "Difference of Squares" (a - b)(a + b) = a^2 - b^2
+print('Calculate the denominator using the "Difference of Squares" (a - b)(a + b) = a^2 - b^2:')
+denominator_new = ((a - b) * (a + b))
+term1_den = (a * a) # (√10)^2
+term2_den = (b * b) # 3^2
+denominator_expanded = (term1_den + term2_den)
+
+print(f'Denominator: (√10 - 3)(√10 + 3) = (√10)^2 - 3^2')
+print(f'(√10)^2 = {term1_den}')
+print(f'3^2 = {term2_den}')
+print(f'Expanded denominator: {term1_den} - {term2_den} = {denominator_expanded}.')
+print()
+
+# Step 5: Form the new fraction and simplify:
