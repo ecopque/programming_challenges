@@ -47,11 +47,11 @@ Your code must pass these checks:
 
 Below are images that illustrate the process and inspiration behind this project:
 
-- **Math Challenge App Screenshot**: The original problem as presented in the "Math Challenge" app, showing the expression and the multiple-choice options.  
-  ![Math Challenge App Screenshot](images/math_challenge_app.png)
+- **Math Challenge App Screenshot**: The original problem as presented in the "1st - 12th Grade Math Problems" app, showing the expression and the multiple-choice options.  
+  ![Math Challenge App Screenshot](https://github.com/ecopque/programming_challenges/blob/main/04_-_math_rationalization_of_expression_with_square_root/prints/IMG_app.jpeg)
 
 - **Handwritten Calculations**: My step-by-step calculations for rationalizing the denominator, mirroring the process implemented in the code.  
-  ![Handwritten Calculations](images/handwritten_calculations.jpg)
+  ![Handwritten Calculations](https://github.com/ecopque/programming_challenges/blob/main/04_-_math_rationalization_of_expression_with_square_root/prints/IMG_20250428_184421.jpg)
 
 ---
 
