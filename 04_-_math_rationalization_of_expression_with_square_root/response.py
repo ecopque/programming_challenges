@@ -45,7 +45,6 @@ print('STEP 3: Calculate the numerator using "Squade of Sum" = (a + b)^2 = (a^2 
 a = sqrt_10
 b = 3
 
-numerator_new = ((a + b) * (a + b))
 term1 = (a * a) # (√10)^2
 term2 = (2 * a * b) # 2(√10)(3)
 term3 = (b * b) # 3^2
@@ -62,7 +61,6 @@ print()
 # Step 4: Calculate the denominator using the "Difference of Squares" (a - b)(a + b) = a^2 - b^2
 print('STEP 4: Calculate the denominator using the "Difference of Squares" (a - b)(a + b) = a^2 - b^2:')
 
-denominator_new = ((a - b) * (a + b))
 term1_den = (a * a) # (√10)^2
 term2_den = (b * b) # 3^2
 denominator_expanded = (term1_den - term2_den)
