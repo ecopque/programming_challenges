@@ -1,3 +1,5 @@
+# ORIGINAL EXPRESSION:  ((√10 + 3) / (√10 - 3))
+
 #1: Calculate √10 manually (using approximation).
 
 # A good guess for √10​ is x0=3, since √3 = 9 and √4 = 16.
