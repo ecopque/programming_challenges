@@ -31,3 +31,7 @@ Your code must pass these checks:
 - √10 ≈ 3.1623 (precision 0.0001)
 - Rationalized denominator must equal exactly 1
 - Final result ≈ 38.1623
+
+## Resources
+- Algebraic Identities: https://www.geeksforgeeks.org/algebraic-identities/
+- Babylonian Method: https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
