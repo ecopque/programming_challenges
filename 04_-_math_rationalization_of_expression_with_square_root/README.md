@@ -20,8 +20,12 @@ This challenge combines mathematical concepts and programming:
 - Rationalize the expression by multiplying by the conjugate
 - Verify the result matches `19 + 6√10`
 
----
-[PORTUGUESE]:
-Objetivo: Calcule o valor racionalizado de 10+310−310
-​−310
-​+3​ sem usar bibliotecas externas (como math).
+## Tests
+
+Your code must pass these checks:
+
+    √10 ≈ 3.1623 (precision 0.0001)
+
+    Rationalized denominator must equal exactly 1
+
+    Final result ≈ 38.1623
