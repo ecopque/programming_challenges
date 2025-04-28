@@ -1,6 +1,6 @@
 # Math Challenge: Rationalization of Expression with Square Root
 
-This project implements a mathematical challenge to rationalize the expression \((\sqrt{10} + 3)/(\sqrt{10} - 3)\). The idea to convert this calculation into Python code was inspired by using the "1st - 12th Grade Math Problems" app (**AdamSoftware** [adamsoft](https://play.google.com/store/apps/details?id=com.companyname.MaturaMatematyka), which presented this problem along with multiple-choice options, one of which was the correct answer: \(19 + 6\sqrt{10}\).
+This project implements a mathematical challenge to rationalize the expression \((\sqrt{10} + 3)/(\sqrt{10} - 3)\). The idea to convert this calculation into Python code was inspired by using the "1st - 12th Grade Math Problems" app ([AdamSoftware](https://play.google.com/store/apps/details?id=com.companyname.MaturaMatematyka), which presented this problem along with multiple-choice options, one of which was the correct answer: \(19 + 6\sqrt{10}\).
 
 ## Objective
 
