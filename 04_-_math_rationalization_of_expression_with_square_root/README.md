@@ -6,8 +6,16 @@ This challenge combines mathematical concepts and programming:
 1. **Math**: Denominator rationalization using conjugates and algebraic identities
 2. **Programming**: Manual implementation of square root calculation (Babylonian/Newton's method) and algebraic operations.
 
+## Core Mathematical Concepts
+This challenge requires two key algebraic identities:
+1. **Difference of Squares**:  
+   `(a - b)(a + b) = a² - b²`  
+   *(Used to rationalize the denominator)*
+2. **Square of a Sum**:  
+   `(a + b)² = a² + 2ab + b²`  
+   *(Used to expand the numerator)*
+   
 ## Key Formula
-
 `math
 (√10 + 3)/(√10 - 3) = 19 + 6√10
 `
@@ -19,7 +27,6 @@ This challenge combines mathematical concepts and programming:
 - Verify the result matches `19 + 6√10`
 
 ## Tests
-
 Your code must pass these checks:
 - √10 ≈ 3.1623 (precision 0.0001)
 - Rationalized denominator must equal exactly 1
