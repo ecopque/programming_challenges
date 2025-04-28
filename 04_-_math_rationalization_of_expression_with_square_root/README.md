@@ -10,11 +10,6 @@ This challenge requires two key algebraic identities:
    `(a + b)² = a² + 2ab + b²`  
    *(Used to expand the numerator)*
    
-## Key Formula
-`math
-(√10 + 3)/(√10 - 3) = 19 + 6√10
-`
-
 ## Requirements
 - Pure code implementation (no `import math`)
 - Calculate √10 with 4 decimal places precision
@@ -26,6 +21,10 @@ Your code must pass these checks:
 - √10 ≈ 3.1623 (precision 0.0001)
 - Rationalized denominator must equal exactly 1
 - Final result ≈ 38.1623
+
+ ## Why These Formulas?
+ - Difference of Squares: Eliminates radicals from denominator
+ - Square of a Sum: Properly expands the squared numerator term
 
 ## Resources
 - Algebraic Identities: https://www.geeksforgeeks.org/algebraic-identities/
