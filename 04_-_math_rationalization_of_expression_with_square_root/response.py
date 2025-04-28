@@ -96,3 +96,5 @@ for c in range(15, 25):
         else:
             continue
         break
+
+# Edson Copque - https://linktr.ee/edsoncopque
