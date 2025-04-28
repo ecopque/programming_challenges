@@ -19,7 +19,7 @@ def calculates_square_root(n, precision=0.0001):
 
 # Calculate sqrt(10):
 sqrt_10 = calculates_square_root(10)
-print(f'Step 1: Calculate √10 numerically:')
+print(f'STEP 1: Calculate √10 numerically:')
 print(f'√10 ≈ {sqrt_10}.')
 print()
 
@@ -33,14 +33,14 @@ denominator_str = '√10 - 3'
 
 conjugate = (sqrt_10 + 3)
 
-print(f'Step 2: Define the expression and multiply by the conjugate of the denominator:')
+print(f'STEP 2: Define the expression and multiply by the conjugate of the denominator:')
 print(f'Original expression ({numerator_str} / {denominator_str}): ({numerator}) / ({denominator}).')
 print(f'Multiplying numerator and denominator by Conjugate: ({conjugate}).')
 print()
 
 
-# Step 3: Calculate the numerator using (a + b)^2 = (a^2 + 2ab + b^2)
-print('Calculate the numerator using "Squade of Sum" = (a + b)^2 = (a^2 + 2ab + b^2): ')
+# Step 3: Calculate the numerator using "Squade of Sum" (a + b)^2 = (a^2 + 2ab + b^2)
+print('STEP 3: Calculate the numerator using "Squade of Sum" = (a + b)^2 = (a^2 + 2ab + b^2): ')
 
 a = sqrt_10
 b = 3
@@ -60,11 +60,12 @@ print()
 
 
 # Step 4: Calculate the denominator using the "Difference of Squares" (a - b)(a + b) = a^2 - b^2
-print('Calculate the denominator using the "Difference of Squares" (a - b)(a + b) = a^2 - b^2:')
+print('STEP 4: Calculate the denominator using the "Difference of Squares" (a - b)(a + b) = a^2 - b^2:')
+
 denominator_new = ((a - b) * (a + b))
 term1_den = (a * a) # (√10)^2
 term2_den = (b * b) # 3^2
-denominator_expanded = (term1_den + term2_den)
+denominator_expanded = (term1_den - term2_den)
 
 print(f'Denominator: (√10 - 3)(√10 + 3) = (√10)^2 - 3^2')
 print(f'(√10)^2 = {term1_den}')
@@ -73,3 +74,25 @@ print(f'Expanded denominator: {term1_den} - {term2_den} = {denominator_expanded}
 print()
 
 # Step 5: Form the new fraction and simplify:
+print('STEP 5: Form the new fraction and simplify:')
+
+new_expression = (numerator_expanded / denominator_expanded)
+
+print(f'New expression: ({numerator_expanded} / {denominator_expanded}).')
+print(f'Numerical result: {new_expression}')
+print()
+
+# Step 6: Interpret the result to deduce the exact form using (c + (d * √10)):
+print('Interpret the result to deduce the exact form using (c + (d * √10)): ')
+print('Attention: The shape must be c + (d * √10). So we need to test integer values ​​for "c" and "d" until we find a match.')
+
+precision = 0.0001
+for c in range(15, 25):
+    for d in range(1, 10):
+        candidate = (c + (d * sqrt_10))
+        if abs(candidate - new_expression) < precision:
+            print(f'Exact shape found: {c} + {d}√10.')
+            break
+        else:
+            continue
+        break
