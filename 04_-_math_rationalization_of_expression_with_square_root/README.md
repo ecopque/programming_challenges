@@ -23,9 +23,6 @@ This challenge combines mathematical concepts and programming:
 ## Tests
 
 Your code must pass these checks:
-
-    √10 ≈ 3.1623 (precision 0.0001)
-
-    Rationalized denominator must equal exactly 1
-
-    Final result ≈ 38.1623
+- √10 ≈ 3.1623 (precision 0.0001)
+- Rationalized denominator must equal exactly 1
+- Final result ≈ 38.1623
