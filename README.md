@@ -5,3 +5,6 @@ This repository is a collection of programming exercises designed to enhance you
 All exercises are language-agnostic and can be solved using any programming language of your choice — including Python, Java, C, C++, JavaScript, ASM, and more. 
 
 To learn more about the original developers of each challenge, please refer to the folder corresponding to each exercise in this repository.
+
+Fonts:
+- https://web.archive.org/web/20230402195501/https://wiki.python.org.br/ListaDeExercicios
