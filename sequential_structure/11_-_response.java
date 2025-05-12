@@ -3,7 +3,7 @@
 // a soma do triplo do primeiro com o terceiro.
 // o terceiro elevado ao cubo.
 
-class Aula07_Exer11 {
+class Exer11 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
