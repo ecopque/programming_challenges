@@ -1,5 +1,5 @@
 //#10: Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. 
-class Aula07_Exer10 {
+class Exer10 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
