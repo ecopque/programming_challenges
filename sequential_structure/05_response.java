@@ -1,5 +1,5 @@
 //#5: Faça um Programa que converta metros para centímetros. 
-class Aula07_Exer05 {
+class Exer05 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
