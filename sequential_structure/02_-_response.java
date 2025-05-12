@@ -1,4 +1,4 @@
-class Aula07_Exer02 {
+class Exer02 {
     public static void main(String[] args) {
         Scanner my_keyboard = new Scanner(System.in);
         System.out.println("Informe um número inteiro: ");
