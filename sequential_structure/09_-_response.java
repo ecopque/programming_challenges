@@ -1,5 +1,5 @@
 //#9: Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C = 5 * ((F-32) / 9). 
-class Aula07_Exer09 {
+class Exer09 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
