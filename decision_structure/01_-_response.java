@@ -1,7 +1,7 @@
 //#1: Faça um Programa que peça dois números e imprima o maior deles. 
 import java.util.Scanner;
 
-class Aula10_Exer10 {
+class Exer01 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
