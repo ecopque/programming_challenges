@@ -1,5 +1,5 @@
 //#4: Faça um Programa que peça as 4 notas bimestrais e mostre a média.
-class Aula07_Exer04 {
+class Exer04 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
