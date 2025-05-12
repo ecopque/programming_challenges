@@ -8,14 +8,16 @@ class Aula10_Ex04 {
 
         if (letra.length() != 1) {
             System.out.println("Digite apenas uma letra.");
-        } else if (letra.equalsIgnoreCase("A") ||
-                    letra.equalsIgnoreCase("E") ||
-                    letra.equalsIgnoreCase("I") ||
-                    letra.equalsIgnoreCase("O") ||
-                    letra.equalsIgnoreCase("U")) {
-                        System.out.println("Vogal.");
-            }else {
-                System.out.println("Provavelmente consoante.");
+        } else if (
+            letra.equalsIgnoreCase("A") ||
+            letra.equalsIgnoreCase("E") ||
+            letra.equalsIgnoreCase("I") ||
+            letra.equalsIgnoreCase("O") ||
+            letra.equalsIgnoreCase("U")
+        ){
+            System.out.println("Vogal.");
+        } else {
+            System.out.println("Provavelmente consoante.");
         }
         my_keyword.close();
     }
