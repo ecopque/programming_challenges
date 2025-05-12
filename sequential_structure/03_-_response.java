@@ -1,5 +1,5 @@
 //#3: Faça um Programa que peça dois números e imprima a soma.
-class Aula07_Exer03 {
+class Exer03 {
     public static void main(String[] args) {
         Scanner my_keyboard = new Scanner(System.in);
 
