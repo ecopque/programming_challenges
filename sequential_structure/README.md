@@ -16,9 +16,9 @@
 9. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C = 5 * ((F-32) / 9). 
 10. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 11. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
-    o produto do dobro do primeiro com metade do segundo .
-    a soma do triplo do primeiro com o terceiro.
-    o terceiro elevado ao cubo. 
+- o produto do dobro do primeiro com metade do segundo .
+- a soma do triplo do primeiro com o terceiro.
+- o terceiro elevado ao cubo. 
 
 Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
 Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
