@@ -48,10 +48,10 @@ Your code must pass these checks:
 Below are images that illustrate the process and inspiration behind this project:
 
 - **Math Challenge App Screenshot**: The original problem as presented in the "1st - 12th Grade Math Problems" app, showing the expression and the multiple-choice options.  
-  ![Math Challenge App Screenshot](https://github.com/ecopque/programming_challenges/blob/main/04_-_math_rationalization_of_expression_with_square_root/prints/IMG_app.jpeg)
+  ![Math Challenge App Screenshot](https://github.com/ecopque/programming_challenges/blob/main/math/rationalization_of_expression_with_square_root/01/prints/IMG_app(1).jpeg)
 
 - **Handwritten Calculations**: My step-by-step calculations for rationalizing the denominator, mirroring the process implemented in the code.  
-  ![Handwritten Calculations](https://github.com/ecopque/programming_challenges/blob/main/04_-_math_rationalization_of_expression_with_square_root/prints/IMG_20250428_184421.jpg)
+  ![Handwritten Calculations](https://github.com/ecopque/programming_challenges/blob/main/math/rationalization_of_expression_with_square_root/01/prints/IMG_20250428_184421(1).jpg)
 
 ---
 
