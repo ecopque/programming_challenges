@@ -1,4 +1,4 @@
-- Font:https://web.archive.org/web/20230406071832/https://wiki.python.org.br/EstruturaSequencial
+0. Font: https://web.archive.org/web/20230406071832/https://wiki.python.org.br/EstruturaSequencial
 
 # Estrutura Sequencial
 
