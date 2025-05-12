@@ -8,3 +8,4 @@ To learn more about the original developers of each challenge, please refer to t
 
 Fonts:
 - https://web.archive.org/web/20230402195501/https://wiki.python.org.br/ListaDeExercicios
+- https://play.google.com/store/apps/details?id=com.companyname.MaturaMatematyka&pli=1
