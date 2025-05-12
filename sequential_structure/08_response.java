@@ -1,5 +1,5 @@
 //#8: Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês. 
-class Aula07_Exer08 {
+class Exer08 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
