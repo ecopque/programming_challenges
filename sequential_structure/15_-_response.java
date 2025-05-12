@@ -10,7 +10,7 @@
 //  - Sindicato ( 5%) : R$
 //  = Salário Liquido : R$
 // Obs.: Salário Bruto - Descontos = Salário Líquido. 
-class Aula07_Exer15 {
+class Exer15 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
