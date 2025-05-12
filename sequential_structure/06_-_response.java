@@ -1,5 +1,5 @@
 //#6: Faça um Programa que peça o raio de um círculo, calcule e mostre sua área (A=π×r2).
-class Aula07_Exer06 {
+class Exer06 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
