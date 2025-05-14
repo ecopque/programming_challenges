@@ -13,10 +13,10 @@ class Exe11 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
-        System.out.println("Informe o salário do colaborador: ");
+        System.out.println("Informe seu salário: ");
         double salario = my_keyword.nextDouble();
 
-        double percentual = 0;
+        float percentual = 0;
 
         if (salario <= 280) {
             percentual = 20;
@@ -26,19 +26,18 @@ class Exe11 {
             percentual = 10;
         } else if (salario > 1500) {
             percentual = 5;
-        } else {
-            System.out.println("Erro identificado.");
         }
 
-        double aumento_pct = ((salario / 100) * percentual);
-        double salario_atualizado = (((salario / 100) * percentual) + salario);
-
+        double calculo_percentual = ((salario /100) * percentual);
+        double novo_salario = (salario + calculo_percentual);
 
         System.out.println("Salário antes do reajuste: " + salario);
-        System.out.println("Percentual de aumento aplicado: " + percentual);
-        System.out.println("O valor de aumento: " + ((salario / 100) * aumento_pct));
-        System.out.println("Novo salário após aumento: " + (salario_atualizado));
-        
+        System.out.println("O percentual de aumento aplicado: " + percentual);
+        System.out.println("O valor de aumento é: " + calculo_percentual);
+        System.out.println("Novo salário: " + novo_salario);
+
+        System.out.println(calculo_percentual);
+
         my_keyword.close();
     }
 }
