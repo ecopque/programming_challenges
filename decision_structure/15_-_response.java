@@ -5,7 +5,7 @@
     // Triângulo Equilátero: três lados iguais;
     // Triângulo Isósceles: quaisquer dois lados iguais;
     // Triângulo Escaleno: três lados diferentes; 
-class Exe15 {
+class Aula10_Exe15 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
@@ -18,12 +18,12 @@ class Exe15 {
         System.out.println("Informe as medidas do lado C: ");
         double ladoc = my_keyword.nextDouble();
 
-        if (ladoa + ladob > ladoc && ladoa + ladoc > ladob && ladob + ladoc > ladoa) {
+        if ((ladoa + ladob > ladoc) && (ladoa + ladoc > ladob) && (ladob + ladoc > ladoa)) {
             if (ladoa == ladob && ladob == ladoc) {
                 System.out.println("Triângulo Equilátero.");
-            } else if (ladoa == ladob || ladoa == ladoc || ladob == ladoc) {
+            } else if ((ladoa == ladob) || (ladoa == ladoc) || (ladob == ladoc)) {
                 System.out.println("Triângulo Isósceles.");
-            } else if (ladoa != ladob && ladob != ladoc) {
+            } else if ((ladoa != ladob) && (ladob != ladoc)) {
                 System.out.println("Triângulo Escaleno.");
             }
         } else {
