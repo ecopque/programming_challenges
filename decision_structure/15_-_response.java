@@ -23,8 +23,10 @@ class Aula10_Exe15 {
                 System.out.println("Triângulo Equilátero.");
             } else if ((ladoa == ladob) || (ladoa == ladoc) || (ladob == ladoc)) {
                 System.out.println("Triângulo Isósceles.");
-            } else if ((ladoa != ladob) && (ladob != ladoc)) {
+            } else if ((ladoa != ladob) && (ladoa != ladoc) && (ladob != ladoc)) {
                 System.out.println("Triângulo Escaleno.");
+            } else {
+                System.out.println("Error: verificação.");
             }
         } else {
             System.out.println("Informe medidas corretas para o triângulo.");
