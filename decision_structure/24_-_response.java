@@ -41,31 +41,37 @@ class Exe24 {
             operacao_valida = false;
         }
 
-        if (operacao_valida) {
-            if (resultado % 2 == 0) {
-                par_impar = "Par, ";
-            } 
-            else {
-                par_impar = "Ímpar, ";
-            }
-            if (resultado > 0) {
-                positivo_negativo = "Positivo, ";
-            }
-            else if (resultado < 0) {
-                positivo_negativo = "Negativo, ";
-            } 
-            else {
-                positivo_negativo = "Neutro, ";
-            }
-            if (resultado % 1 != 0) {
-                inteiro_decimal = "Decimal.";
-            } 
-            else {
-                inteiro_decimal = "Inteiro.";
-            }
-
-            System.out.println("O resultado é: " + par_impar + " " + positivo_negativo + " " + inteiro_decimal + " Número é: " + resultado);
+        if (numero1 == 0 && numero2 == 0) {
+            System.out.println("Os dois números não podem ser zero.");
+            my_keyword.close();
         }
-        my_keyword.close();
+        else {
+            if (operacao_valida) {
+                if (resultado % 2 == 0) {
+                    par_impar = "Par, ";
+                } 
+                else {
+                    par_impar = "Ímpar, ";
+                }
+                
+                if (resultado > 0) {
+                    positivo_negativo = "Positivo, ";
+                }
+                else if (resultado < 0) {
+                    positivo_negativo = "Negativo, ";
+                } 
+                
+                if (resultado % 1 != 0) {
+                    inteiro_decimal = "Decimal.";
+                } 
+                else {
+                    inteiro_decimal = "Inteiro.";
+                }
+                
+                System.out.println("O resultado é: " + par_impar + " " + positivo_negativo + " " + inteiro_decimal + " Número é: " + resultado);
+
+                my_keyword.close();
+            }   
+        }
     }
 }
