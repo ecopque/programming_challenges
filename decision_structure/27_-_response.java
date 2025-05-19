@@ -59,7 +59,6 @@ class Exe27 {
         double desconto_10 = 0;
         double valor_total_frutas_desconto = valor_total_frutas;
 
-
         if ((kg_maca + kg_morango > 8) || (valor_total_maca + valor_total_morango > 25)) {
             desconto_10 = ((valor_total_frutas / 100) * 10);
             valor_total_frutas_desconto = (valor_total_frutas - desconto_10);
