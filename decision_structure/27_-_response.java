@@ -75,5 +75,4 @@ class Exe27 {
                            "Valor total: " + valor_total_frutas_desconto);
         my_keyword.close();
     } 
-
 }
