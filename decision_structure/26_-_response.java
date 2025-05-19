@@ -79,3 +79,89 @@ class Exe26 {
         }
     }
 }
+
+class Aula10_Exe26_2 {
+    public static void main(String[] args) {
+        Scanner my_keyword = new Scanner(System.in);
+
+        double preco_gasolina = 2.50;
+        double preco_alcool = 1.90;
+
+        double litros_vendidos = 0;
+        double valor_total_bruto = 0;
+        double valor_desconto = 0;
+        double valor_total_liquido = 0;
+
+        String tipos_combustivel = "";
+        int percentual = 0;
+
+        System.out.println("Informe o número de litros vendidos: ");
+        litros_vendidos = my_keyword.nextDouble();
+
+        if (litros_vendidos < 0) {
+            System.out.println("Informe uma qtde acima de 0.");
+            my_keyword.close();
+            return;
+        }
+        
+        System.out.println("Informe o tipo de combustível (A/G): ");
+        tipos_combustivel = my_keyword.next();
+
+        if (tipos_combustivel.equalsIgnoreCase("A")) {
+            int desconto_alcool_20lts = 3;
+            int desconto_alcool_acima_20ltd = 5;
+            
+            if (litros_vendidos <= 20) {
+                valor_total_bruto = (litros_vendidos * preco_alcool);
+                valor_desconto = ((valor_total_bruto / 100) * desconto_alcool_20lts);
+                valor_total_liquido = (valor_total_bruto - valor_desconto);
+
+                percentual = desconto_alcool_20lts;
+            }
+            else if (litros_vendidos > 20) {
+                valor_total_bruto = (litros_vendidos * preco_alcool);
+                valor_desconto = ((valor_total_bruto / 100) * desconto_alcool_acima_20ltd);
+                valor_total_liquido = (valor_total_bruto - valor_desconto);
+
+                percentual = desconto_alcool_acima_20ltd;
+            }
+            else {
+                System.out.println("Error: verificar lógica.");
+                my_keyword.close();
+                return;
+            }
+        }
+        if (tipos_combustivel.equalsIgnoreCase("G")) {
+            int desconto_gasolina_20lts = 4;
+            int desconto_gasolina_acima_20lts = 6;
+            
+            if (litros_vendidos <= 20) {
+                valor_total_bruto = (litros_vendidos * preco_gasolina);
+                valor_desconto = ((valor_total_bruto / 100) * desconto_gasolina_20lts);
+                valor_total_liquido = (valor_total_bruto - valor_desconto);
+
+                percentual = desconto_gasolina_20lts;
+            }
+            else if (litros_vendidos > 20) {
+                valor_total_bruto = (litros_vendidos * preco_gasolina);
+                valor_desconto = ((valor_total_bruto / 100) * desconto_gasolina_acima_20lts);
+                valor_total_liquido = (valor_total_bruto - valor_desconto);
+
+                percentual = desconto_gasolina_acima_20lts;
+            }
+            else {
+                System.out.println("Error: verificar lógica.");
+                my_keyword.close();
+                return;
+            }
+        }
+
+        System.out.println("Litros vendidos: " + litros_vendidos + "\n" +
+                           " Valor total bruto: " + valor_total_bruto + "\n" +
+                           " Percentual desconto: " + percentual + "%\n" +
+                           " Desconto: " + valor_desconto + "\n" +
+                           " Valor total líquido: " + valor_total_liquido);
+        my_keyword.close();
+        return;
+    }
+}
