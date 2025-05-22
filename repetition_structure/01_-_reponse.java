@@ -16,8 +16,9 @@ class Exe01 {
             }
         }
         while (nota < 0 || nota > 10);
-            System.out.println("Nota válida registrada: " + nota);
-            my_keyword.close();
-            return;
+        
+        System.out.println("Nota válida registrada: " + nota);
+        my_keyword.close();
+        return;
     }
 }
