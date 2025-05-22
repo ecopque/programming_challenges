@@ -8,7 +8,7 @@ class Exe01 {
         double nota;
 
         do {
-            System.out.println("Informe a nota: ");
+            System.out.println("Informe uma nota de 0 a 10: ");
             nota = my_keyword.nextDouble();
 
             if (nota < 0 || nota > 10) {
@@ -18,5 +18,6 @@ class Exe01 {
         while (nota < 0 || nota > 10);
             System.out.println("Nota válida registrada: " + nota);
             my_keyword.close();
-        }
+            return;
     }
+}
