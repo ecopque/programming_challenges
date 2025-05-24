@@ -5,7 +5,7 @@
     // Salário: maior que zero;
     // Sexo: 'f' ou 'm';
     // Estado Civil: 's', 'c', 'v', 'd'; 
-class Exe03 {
+class Aula13_Exe03 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
@@ -44,7 +44,6 @@ class Exe03 {
         while (salario <= 0);
         my_keyword.nextLine(); //#: Limpa a quebra de linha pendente por Double().
         
-
         do {
             System.out.println("Informe seu sexo (F ou M): ");
             
@@ -64,7 +63,6 @@ class Exe03 {
         else if (sexo.equalsIgnoreCase("M")) {
             sexo_extenso = "Masculino";
         } 
-        
         
         do {
             System.out.println("Digite seu estado civil: ");
