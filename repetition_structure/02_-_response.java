@@ -3,6 +3,8 @@ class Exe02_7 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
+        // String nome; #Obs: se declarar fora do loop economizamos memória.
+        // String senha;
         boolean bandeira;
 
         do {
