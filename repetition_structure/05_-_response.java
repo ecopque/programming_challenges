@@ -3,8 +3,12 @@ class Exe05 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
-        double pais_a; //#: 3%.
-        double pais_b; //#: 1.5%.
+        double pais_a;
+        double pais_b;
+        
+        double tax_a = 0;
+        double tax_b = 0;
+
         int anos = 0;
 
         do {
@@ -17,6 +21,15 @@ class Exe05 {
         while (pais_a <= 0);  
 
         do {
+            System.out.println("Informe a taxa de crescimento de A: ");
+            tax_a = my_keyword.nextDouble();
+            if (tax_a < 0) {
+                System.out.println("Entrada inválida.");
+            }
+        }
+        while (tax_a < 0);
+
+        do {
             System.out.println("Informe a população do país B: ");
             pais_b = my_keyword.nextDouble();
             if (pais_b <= 0) {
@@ -25,10 +38,19 @@ class Exe05 {
         }
         while (pais_b <= 0);
 
+        do {
+            System.out.println("Informe a taxa de crescimento de B: ");
+            tax_b = my_keyword.nextDouble();
+            if (tax_b < 0) {
+                System.out.println("Entrada inválida.");
+            }
+        }
+        while (tax_b < 0);
+
         while (pais_a <= pais_b) {
             anos++;
-            pais_a = (((pais_a / 100) * 3) + pais_a);
-            pais_b = (((pais_b /100) * 1.5) + pais_b);
+            pais_a = (((pais_a / 100) * tax_a) + pais_a);
+            pais_b = (((pais_b /100) * tax_b) + pais_b);
         }
 
         System.out.println("Anos acumulados: " + anos);
