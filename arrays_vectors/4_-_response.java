@@ -23,7 +23,7 @@ class Exe04 {
 
         System.out.println("\n\nVetor B (raiz quadrada de A): ");
         for (int i = 0; i < vetor_b.length; i++) {
-            System.out.print(vetor_b[i] + " ");
+            System.out.printf("%.2f ", vetor_b[i]);
         }
 
         System.out.println();
