@@ -1,5 +1,5 @@
 // 3. Criar um vetor A com 15 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento do vetor B deverá ser o quadrado do respectivo elemento de A, ou seja: B[i] = A[i] * A[I].
-class Aula16_Exe03 {
+class Exe03 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ class Aula16_Exe03 {
             System.out.print(vetor_a[i] + " ");
         }
 
-        System.out.println("\n\nVetor B (cópia de A): ");
+        System.out.println("\n\nVetor B ao quadrado de A: ");
         for (int i = 0; i < vetor_b.length; i++) {
             System.out.print(vetor_b[i] + " ");
         }
