@@ -1,6 +1,6 @@
 // 2. Criar um vetor A com 8 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho e com os elementos do vetor A multiplicados por 2, ou seja: B[i] = A[i] * 2.
 
-class Exe04 {
+class Exe02_3 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
