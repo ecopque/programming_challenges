@@ -26,3 +26,23 @@ Enter number:
 1
 '''
 
+def collatz(number):
+    if (number % 2 == 0):
+        new_number = (number // 2)
+    
+    else:
+        new_number = ((number * 3) + 1)
+        
+    print(new_number)
+    return new_number
+
+try: 
+   number = int(input("Enter a positive integer: "))
+   while number != 1:
+       number = collatz(number)
+
+except ValueError:
+    print('Please enter a valid integer.')
+
+except Exception as error:
+    print("Error: {error}.")
