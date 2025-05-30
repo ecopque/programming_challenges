@@ -5,7 +5,7 @@
     // Triângulo Equilátero: três lados iguais;
     // Triângulo Isósceles: quaisquer dois lados iguais;
     // Triângulo Escaleno: três lados diferentes; 
-class Aula10_Exe15 {
+class Exe15 {
     public static void main(String[] args) {
         Scanner my_keyword = new Scanner(System.in);
 
