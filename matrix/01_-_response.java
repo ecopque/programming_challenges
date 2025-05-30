@@ -35,6 +35,6 @@ class Exe01 {
         }
 
         System.out.println("\nMaior número: " + maior);
-        System.out.println("Posição: [" + linha + "][" + coluna + "]");
+        System.out.println("Posição: [" + linha + "]" + ", Coluna: [" + coluna + "].");
     }
 }
