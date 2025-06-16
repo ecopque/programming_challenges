@@ -1,167 +1,270 @@
-```markdown
-# Desafios Lógicos em JavaScript
+# Requisitos das Funções
 
-Repositório de desafios resolvidos sem métodos nativos (como `push`, `map`, `filter`, etc.).
+## 1. `canDrive`
 
----
+### Verificação de Permissão para Dirigir
 
-## 1. canDrive
-**Verificação de permissão para dirigir**  
-Implemente a função `canDrive(age)` que retorna:  
-- `"Você pode dirigir."` se `age >= 18`  
-- `"Você não pode dirigir."` se `age < 18`
+Implemente uma função chamada `canDrive` que:
 
-### Exemplo
-```javascript
-canDrive(20); // "Você pode dirigir."
-```
+- Recebe um único parâmetro:
+  - `age`: número representando a idade da pessoa.
+- Verifica se a idade é suficiente para dirigir (idade mínima: 18 anos).
+- Imprime:
+  - `"Você pode dirigir."` se idade ≥ 18.
+  - `"Você não pode dirigir."` se idade < 18.
 
----
+#### Passos para Implementação
 
-## 2. checkLicenseEligibility
-**Elegibilidade para licença de condução**  
-Implemente `checkLicenseEligibility(age, yearsOfExperience)` que retorna:  
-- `"Não pode obter a licença."` se `age < 18`  
-- `"Pode obter a licença, mas é necessária supervisão."` se `age >= 18` e `yearsOfExperience < 2`  
-- `"Pode obter a licença sem supervisão."` se `age >= 18` e `yearsOfExperience >= 2`
-
-### Exemplo
-```javascript
-checkLicenseEligibility(19, 3); // "Pode obter a licença sem supervisão."
-```
+- Utilize estrutura condicional `if...else`.
+- Utilize `console.log()` para imprimir as mensagens.
 
 ---
 
-## 3. displayElements
-**Imprime elementos de um array**  
-Implemente `displayElements(array)` que imprime cada elemento do array no console, um por linha.
+## 2. `checkLicenseEligibility`
 
-### Exemplo
+### Verificação de Elegibilidade para Licença de Condução
+
+Implemente uma função chamada `checkLicenseEligibility` que:
+
+- Recebe dois parâmetros:
+  - `age`: idade da pessoa.
+  - `yearsOfExperience`: anos de experiência como condutor.
+- Retorne:
+  - `"Não pode obter a licença."` se idade < 18.
+  - `"Pode obter a licença, mas é necessária supervisão."` se idade ≥ 18 e experiência < 2.
+  - `"Pode obter a licença sem supervisão."` se idade ≥ 18 e experiência ≥ 2.
+
+#### Passos para Implementação
+
+- Use `if`, `else if`, `else` para definir a lógica.
+- Utilize `return` para retornar a mensagem correta.
+
+---
+
+## 3. `displayElements`
+
+### Impressão de Elementos de um Array
+
+Implemente uma função chamada `displayElements` que:
+
+- Recebe um único parâmetro: um array.
+- Imprime cada item do array em uma nova linha no console.
+
+#### Exemplo
+
 ```javascript
-displayElements([1, 2, 3]); 
-// Saída:
+const array = [1, 2, 3, 4, 5];
+displayElements(array);
+// Espera-se que imprima:
 // 1
 // 2
 // 3
+// 4
+// 5
 ```
 
 ---
 
-## 4. findMaximum
-**Encontra o maior número em um array**  
-Implemente `findMaximum(array)` que retorna o maior valor do array.
+## 4. `findMaximum`
 
-### Exemplo
+### Encontrar o Maior Número de um Array
+
+Implemente uma função chamada `findMaximum` que:
+
+- Recebe um array de números.
+- Retorna o maior valor presente no array.
+
+#### Exemplo
+
 ```javascript
-findMaximum([5, 2, 9]); // 9
+const array = [5, 8, 2, 9, 3];
+const maxNumber = findMaximum(array);
+console.log(maxNumber); // Espera-se que imprima: 9
+```
+
+#### Casos de Teste
+
+- `[1, 6, 8, 5, 19, 20, 10]` → 20
+- `[-1, -5, -3, -2]` → -1
+- `[5, 8, 4, 10]` → 10
+
+---
+
+## 5. `printInnerElements`
+
+### Imprimir Apenas Elementos Internos do Array
+
+Implemente uma função chamada `printInnerElements` que:
+
+- Recebe um array.
+- Imprime todos os elementos, exceto o primeiro e o último.
+- Se o array tiver menos de 3 elementos, imprime: `"Tamanho do array inválido"`.
+
+#### Exemplos
+
+- `[1, 5, 10, 12]` → imprime `5`, `10`.
+- `['HTML', 'JavaScript', 'CSS']` → imprime `'JavaScript'`.
+- `[4, 7]` → `"Tamanho do array inválido"`
+
+---
+
+## 6. `invertElements`
+
+### Inverter Elementos de um Array
+
+Implemente uma função chamada `invertElements` que:
+
+- Recebe um array.
+- Retorna um novo array com os elementos na ordem invertida.
+
+#### Exemplos
+
+- `[8, 4, 60, 15]` → `[15, 60, 4, 8]`
+- `[23, 7, 10]` → `[10, 7, 23]`
+- `['maça', 'banana', 'uva']` → `['uva', 'banana', 'maça']`
+
+---
+
+## 7. `invertString`
+
+### Inverter uma String
+
+Implemente uma função chamada `invertString` que:
+
+- Recebe uma string.
+- Retorna essa string invertida.
+
+#### Exemplos
+
+- `"inverte"` → `"etrevni"`
+- `"hello"` → `"olleh"`
+
+---
+
+## 8. `removeDuplicates`
+
+### Remover Duplicatas de um Array
+
+Implemente uma função chamada `removeDuplicates` que:
+
+- Recebe um array de números.
+- Retorna o mesmo array, mas sem valores duplicados.
+
+#### Exemplos
+
+- `[9, 1, 2, 3, 9, 2, 7]` → `[9, 1, 2, 3, 7]`
+- `[0, 4, 4, 4, 9, 1]` → `[0, 4, 9, 1]`
+- `[0, 0, 0]` → `[0]`
+
+---
+
+## 9. `calculateNetSalary`
+
+### Calcular Salário Líquido
+
+Implemente uma função chamada `calculateNetSalary` que:
+
+- Recebe um número (salário bruto).
+- Retorna o valor líquido após descontos de INSS e IR, conforme as faixas:
+
+#### INSS
+
+- Até R$ 1.556,94: 8%
+- R$ 1.556,95 a R$ 2.594,92: 9%
+- R$ 2.594,93 a R$ 5.189,82: 11%
+- Acima de R$ 5.189,82: desconto fixo de R$ 570,88
+
+#### IR
+
+- Até R$ 1.903,98: isento
+- R$ 1.903,99 a R$ 2.826,65: 7,5% (− R$ 142,80)
+- R$ 2.826,66 a R$ 3.751,05: 15% (− R$ 354,80)
+- R$ 3.751,06 a R$ 4.664,68: 22,5% (− R$ 636,13)
+- Acima de R$ 4.664,68: 27,5% (− R$ 869,36)
+
+#### Exemplo de retorno
+
+```text
+Salário: R$ 2612.55.
 ```
 
 ---
 
-## 5. printInnerElements
-**Imprime elementos internos de um array**  
-Implemente `printInnerElements(array)` que retorna os elementos exceto o primeiro e o último. Se `array.length < 3`, retorna `"Tamanho do array inválido"`.
+## 10. `formatPhoneNumber`
 
-### Exemplo
+### Formatar Número de Telefone
+
+Implemente uma função chamada `formatPhoneNumber` que:
+
+- Recebe um array com 11 números.
+- Retorna o número no formato: `(XX) XXXXX-XXXX`
+
+#### Restrições
+
+- Tamanho diferente de 11 → `"Array com tamanho incorreto."`
+- Números < 0 ou > 9 → `"não é possível gerar um número de telefone com esses valores"`
+- Qualquer número repetido 3 ou mais vezes → mesma mensagem acima.
+
+#### Exemplo
+
 ```javascript
-printInnerElements([1, 2, 3, 4]); // [2, 3]
+formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]);
+// Retorna: (12) 34567-8901
 ```
 
 ---
 
-## 6. invertElements
-**Inverte a ordem de um array**  
-Implemente `invertElements(array)` que retorna o array invertido.
+## 11. `getIntervalData`
 
-### Exemplo
+### Obter Números em Intervalo
+
+Implemente uma função chamada `getIntervalData` que:
+
+- Recebe:
+  - Um array de números
+  - Um número inicial do intervalo
+  - Um número final do intervalo
+- Retorna um objeto:
+
 ```javascript
-invertElements([1, 2, 3]); // [3, 2, 1]
+{
+  arrayNoIntervalo: [...], // números dentro do intervalo (inclusive)
+  contador: n              // quantidade de números encontrados
+}
 ```
 
----
+#### Exemplos
 
-## 7. invertString
-**Inverte uma string**  
-Implemente `invertString(str)` que retorna a string invertida.
-
-### Exemplo
 ```javascript
-invertString("hello"); // "olleh"
+getIntervalData([1, 2, 3, 4, 5, 1], 2, 4);
+// → { arrayNoIntervalo: [2, 3, 4], contador: 3 }
+
+getIntervalData([20, 14, 5, 6, 9, 63, 80, 120], 20, 80);
+// → { arrayNoIntervalo: [20, 63, 80], contador: 3 }
 ```
 
 ---
 
-## 8. removeDuplicates
-**Remove elementos duplicados de um array**  
-Implemente `removeDuplicates(array)` que retorna o array sem duplicatas.
+## 12. Restrições de Métodos
 
-### Exemplo
-```javascript
-removeDuplicates([1, 2, 2, 3]); // [1, 2, 3]
-```
+Todas as funções **devem ser implementadas sem o uso de métodos nativos** como:
 
----
+- `includes`, `map`, `filter`, `find`, `forEach`, `reduce`
+- `push`, `splice`, `indexOf`, `lastIndexOf`
+- `Math.max`, `Math.min`, `Math.pow`, `Math.abs`, etc.
+- `Object.keys`, `Object.values`, `Object.entries`
 
-## 9. calculateNetSalary
-**Calcula salário líquido**  
-Implemente `calculateNetSalary(grossSalary)` que retorna o salário líquido após descontos de INSS e IR (conforme regras do Brasil).
+#### Exemplo:
 
-### Exemplo
-```javascript
-calculateNetSalary(3000); // "Salário: R$ 2612.55."
-```
-
----
-
-## 10. formatPhoneNumber
-**Formata um número de telefone**  
-Implemente `formatPhoneNumber(numbers)` que retorna uma string formatada como `(XX) XXXXX-XXXX`. Valida:  
-- Tamanho do array = 11  
-- Números entre 0 e 9  
-- Nenhum número se repete 3+ vezes
-
-### Exemplo
-```javascript
-formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]); // "(12) 34567-8901"
-```
-
----
-
-## 11. getIntervalData
-**Filtra números em um intervalo**  
-Implemente `getIntervalData(array, start, end)` que retorna um objeto com:  
-- `arrayNoIntervalo`: elementos entre `start` e `end` (inclusive)  
-- `contador`: quantidade de elementos no intervalo
-
-### Exemplo
-```javascript
-getIntervalData([1, 2, 3, 4, 5], 2, 4); 
-// { arrayNoIntervalo: [2, 3, 4], contador: 3 }
-```
-
----
-
-## 12. Method Restrictions
-**Restrições de Implementação**  
-Todos os desafios (1-11) devem ser resolvidos **sem usar métodos nativos** como:  
-- `includes`, `map`, `filter`, `reduce`  
-- `push`, `splice`, `indexOf`  
-- `Math.max`, `Object.keys`, etc.
-
-### Exemplo
 ```javascript
 // Proibido:
-function findMaximum(array) {
-  return Math.max(...array); // ❌ Usa Math.max
+function aoQuadrado(n) {
+  return Math.pow(n, 2);
 }
 
 // Permitido:
-function findMaximum(array) {
-  let max = array[0];
-  for (let i = 1; i < array.length; i++) { // ✅ Sem métodos
-    if (array[i] > max) max = array[i];
-  }
-  return max;
+function aoQuadrado(n) {
+  return n * n;
 }
 ```
-```
+
