@@ -22,7 +22,7 @@ function formatPhoneNumber(telNumber) {
           for (let j = 0; j < telNumber.length; j++) {
               for (let k = 0; k < telNumber.length; k++) {
                   if ((i !== j && j !== k) && (i !== k)) {
-                      if (telNumber[i] === telNumber[j] && telNumber[j] === telNumber[k]) {
+                      if ((telNumber[i] === telNumber[j]) && (telNumber[j] === telNumber[k])) {
                         return 'não é possível gerar um número de telefone com esses valores'
                       }
                   }
