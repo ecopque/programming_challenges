@@ -8,6 +8,7 @@ function formatPhoneNumber(telNumber) {
 
   for (let i = 0; i < telNumber.length; i++) {
       if (telNumber[i] < 0 || telNumber[i] > 9) {
+          my_flag = true;
           return 'não é possível gerar um número de telefone com esses valores';
       }
   }
