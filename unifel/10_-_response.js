@@ -17,20 +17,21 @@ function formatPhoneNumber(telNumber) {
       my_flag = true;
       return 'não é possível gerar um número de telefone com esses valores';
   }
-  if (!my_flag) {
-      for (let i = 0; i < telNumber.length; i++) {
-          for (let j = 0; j < telNumber.length; j++) {
-              for (let k = 0; k < telNumber.length; k++) {
-                  if ((i !== j && j !== k) && (i !== k)) {
-                      if ((telNumber[i] === telNumber[j]) && (telNumber[j] === telNumber[k])) {
-                        return 'não é possível gerar um número de telefone com esses valores'
-                      }
+  
+  for (let i = 0; i < telNumber.length; i++) {
+      for (let j = 0; j < telNumber.length; j++) {
+          for (let k = 0; k < telNumber.length; k++) {
+              if ((i !== j && j !== k) && (i !== k)) {
+                  if ((telNumber[i] === telNumber[j]) && (telNumber[j] === telNumber[k])) {
+                    return 'não é possível gerar um número de telefone com esses valores'
                   }
               }
           }
       }
   }
-  return '(' + 
+  
+  if (!my_flag) {
+      return '(' + 
          telNumber[0] + 
          telNumber[1] + 
          ')' + 
@@ -45,8 +46,10 @@ function formatPhoneNumber(telNumber) {
          telNumber[8] +
          telNumber[9] +
          telNumber[10];
+  }
 }
 
 module.exports = {
     formatPhoneNumber
 }
+// Edson Copque - https://linktr.ee/edsoncopque
