@@ -243,7 +243,7 @@ getIntervalData([20, 14, 5, 6, 9, 63, 80, 120], 20, 80);
 // → { arrayNoIntervalo: [20, 63, 80], contador: 3 }
 ```
 ---
-## 11. `(Outra perspectiva): Objetivo do Desafio getIntervalData
+## 11. `(Outra perspectiva): Objetivo do Desafio getIntervalData`
 
 Você precisa criar uma função chamada getIntervalData que:
 
