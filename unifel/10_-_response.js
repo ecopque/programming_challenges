@@ -53,4 +53,3 @@ function formatPhoneNumber(telNumber) {
 module.exports = {
     formatPhoneNumber
 }
-// Edson Copque - https://linktr.ee/edsoncopque
