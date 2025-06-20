@@ -23,7 +23,8 @@ function formatPhoneNumber(telNumber) {
           for (let k = 0; k < telNumber.length; k++) {
               if ((i !== j && j !== k) && (i !== k)) {
                   if ((telNumber[i] === telNumber[j]) && (telNumber[j] === telNumber[k])) {
-                    return 'não é possível gerar um número de telefone com esses valores'
+                      my_flat = true;
+                      return 'não é possível gerar um número de telefone com esses valores'
                   }
               }
           }
@@ -52,4 +53,3 @@ function formatPhoneNumber(telNumber) {
 module.exports = {
     formatPhoneNumber
 }
-// Edson Copque - https://linktr.ee/edsoncopque
