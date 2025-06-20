@@ -242,7 +242,47 @@ getIntervalData([1, 2, 3, 4, 5, 1], 2, 4);
 getIntervalData([20, 14, 5, 6, 9, 63, 80, 120], 20, 80);
 // → { arrayNoIntervalo: [20, 63, 80], contador: 3 }
 ```
+---
+11 (Outra perspectiva): Objetivo do Desafio getIntervalData
 
+Você precisa criar uma função chamada getIntervalData que:
+
+    Recebe 3 parâmetros:
+
+        Um array de números (ex: [1, 2, 3, 4, 5, 1])
+
+        Um número que representa o início do intervalo (ex: 2)
+
+        Um número que representa o fim do intervalo (ex: 4)
+
+    Retorna um objeto com:
+
+        arrayNoIntervalo: um novo array com os números que estão dentro do intervalo [início, fim], ou seja, inclusivo (tanto o início quanto o fim contam).
+
+        contador: a quantidade de elementos encontrados nesse intervalo (tamanho do arrayNoIntervalo).
+
+🧪 Exemplo explicado passo a passo
+
+Chamada:
+
+getIntervalData([1, 2, 3, 4, 5, 1], 2, 4)
+
+1. Percorre o array original: [1, 2, 3, 4, 5, 1]
+2. Filtra apenas os números entre 2 e 4, inclusive: 2, 3, 4
+3. Cria o novo array: [2, 3, 4]
+4. Conta quantos são: 3
+
+Retorno esperado:
+
+{ arrayNoIntervalo: [2, 3, 4], contador: 3 }
+
+💡 Detalhes importantes
+
+    O intervalo é inclusivo: se o número do array for igual ao início ou ao fim, ele também entra no resultado.
+
+    Os elementos devem manter a ordem original do array de entrada.
+
+    O contador é exatamente o número de itens do array filtrado.
 ---
 
 ## 12. Restrições de Métodos
