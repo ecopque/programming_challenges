@@ -277,6 +277,7 @@ Retorno esperado:
   . O intervalo é inclusivo: se o número do array for igual ao início ou ao fim, ele também entra no resultado.
   . Os elementos devem manter a ordem original do array de entrada.
   . O contador é exatamente o número de itens do array filtrado.
+  
 ---
 
 ## 12. Restrições de Métodos
