@@ -268,3 +268,5 @@ function aoQuadrado(n) {
 }
 ```
 
+Professor Marcley Rosa - https://github.com/MarcleyRosa/brain-code?tab=readme-ov-file
+
