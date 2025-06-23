@@ -17,8 +17,7 @@ Hint: An integer number is even if number % 2 == 0, and it’s odd if number
 % 2 == 1.
 
 
-### 2:
-## Desafio: Criando uma lista formatada
+### 2: Desafio: Criando uma lista formatada
 Enunciado:
 Dada uma lista com valores, escreva uma função que recebe a lista como argumento e retorna uma string contendo todos os itens da lista, separados por vírgulas e espaços. No entanto, "e" deve ser inserido antes do último item da lista.
 Exemplos:
