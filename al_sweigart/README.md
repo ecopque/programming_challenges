@@ -41,3 +41,19 @@ Requisitos:
     A função deve ser capaz de lidar com qualquer tipo de dado dentro da lista, como números, strings ou até mesmo outros tipos de objetos.
 
     Não use o método join(). Em vez disso, implemente a lógica manualmente, usando loops ou condicionais.
+
+### 3: Desafio: Detecção de Sequência em Lançamentos de Moeda
+
+Este projeto tem como objetivo simular 10.000 experimentos de lançamentos de moeda e analisar com que frequência ocorrem sequências (streaks) de seis ou mais resultados iguais consecutivos — seja de caras ("H") ou coroas ("T").
+
+A motivação desse desafio vem de um fenômeno curioso: quando humanos tentam "fingir" aleatoriedade, tendem a alternar resultados com muita frequência e raramente colocam várias caras ou coroas seguidas. No entanto, em uma sequência realmente aleatória, streaks longas são muito comuns.
+
+O programa funciona em dois passos:
+
+    Para cada uma das 10.000 repetições do experimento, o código gera uma lista com 100 lançamentos de moeda. Cada lançamento é representado aleatoriamente como "H" (heads - cara) ou "T" (tails - coroa), usando random.randint(0, 1).
+
+    Em seguida, o programa verifica se existe uma sequência de seis ou mais resultados iguais consecutivos dentro da lista. Se encontrar ao menos uma, aquela lista é contabilizada como contendo uma streak.
+
+Ao final, o programa informa quantas das 10.000 listas possuíam uma streak e apresenta o resultado como porcentagem. Essa análise permite observar como, mesmo em sequências aleatórias curtas, eventos que parecem "improváveis" são, na verdade, bem comuns.
+
+Este desafio envolve conceitos de aleatoriedade, lógica condicional, manipulação de listas e contagem de padrões repetitivos.
